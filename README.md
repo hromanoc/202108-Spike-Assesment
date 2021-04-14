@@ -88,51 +88,49 @@ Cuéntanos qué piezas de software crees que sea necesario desarrollar para el p
 
 Cuéntanos sobre el tipo de arquitectura que elegiste para la pregunta (1). ¿Monolítica? ¿Micro-servicios? ¿Algún intermedio? ¿Otra? Comenta en qué te basaste para tomar esta decisión
 
-* La arquitectura utilizada fue de Web service por temas de optimizar tiempo aunque podría ser mejorada, notablemente, usando una arquitectura Serverless y hostearla en Amazon AWS usando Lambda functions + API Gateway y para el Front End usar React. De esa manera se optimizaría costos y el servicio se podría brindar de manera masiva a medida que se requiera aumentar las capacidades en momentos de picos de uso sin afectar la disponibilidad del servicio. Además al usar un API en el backend podría servir para alimentar de información a otros tipos de aplicaciones tales como móviles, escritorio, etc.
+* La arquitectura utilizada fue de Web service por temas de optimizar el tiempo necesario de presentación del presente reto; aunque podría ser mejorada, notablemente, usando una arquitectura _Serverless_ y hostearla en _Amazon AWS_ usando _Lambda functions_ + _API Gateway_ y para el Front End usar _React_. De esa manera se optimizaría costos y el servicio se podría brindar de manera masiva a medida que se requiera aumentar las capacidades en momentos de picos de uso, sin afectar la disponibilidad del servicio. Además, al usar un API en el backend podría servir para alimentar de información a otros tipos de aplicaciones tales como móviles, escritorio, etc.
 ### Pregunta 3
 
 Describe la metodología de trabajo que usarías para el desarrollo. Puede ser alguna metodología conocida (Scrum, XP, RUP), una adaptación, o una mezcla entre varias metodologías. Lo que sea que tu experiencia te haya mostrado que funciona. Cuéntanos por qué crees que esta forma es adecuada para nuestro problema.
 
-* Haría uso de un metodología ágil y que sea ampliamente implementada en otras empresas, para disminuir la curva de aprendizaje durante el proceso de onboarding de un nuevo miembro al equipo. Elegiría Scrum y trabajar bajo el esquema de springs quincenales.
+* Haría uso de una metodología ágil, la cual sea ampliamente implementada, con el objetivo de disminuir la curva de aprendizaje durante el proceso de _onboarding_ de un nuevo miembro al equipo. Elegiría Scrum y trabajar bajo el esquema de springs quincenales.
 ### Pregunta 4
 
 Describe el workflow que usarías para colaborar usando Git. Al igual que con (3), puedes usar algo conocido o una adaptación.
 
-* Primero estandarizaría el uso de los sistemas operativos para evitar algún conflicto durante el envío de commits u alguna otra acción.
-* Segundo, en conjunto con el equipo seleccionaríamos una plataforma en nube para compartir el proyecto tales como github, gitlab u otro, quizás hacer uso de Docker (contenedores) para facilitar la compatibilidad.
+* Primero: Estandarizaría el uso de los sistemas operativos para evitar algún conflicto durante el envío de commits u alguna otra acción.
+* Segundo: En conjunto con el equipo, seleccionaríamos una plataforma en nube para compartir el proyecto tales como github, gitlab u otro, quizás hacer uso de Docker (contenedores) para facilitar la compatibilidad de diferentes entornos de desarrollo.
 * Tercero: Posterior a ello, crearía almenos 3 tipos de branches para la puesta de producción, developement y pruebas.
-* Cuarto: Seleccionaríamos a un único responsable (Team leader) que se encargue de revisar y solucionar los problemas de conflictos.
+* Cuarto: Seleccionaríamos a un único responsable (Team leader) que se encargue de revisar y solucionar los problemas de conflictos en el repositorio.
 ### Pregunta 5
 
 ¿Crees que sea necesario agregar algún integrante extra al equipo durante el desarrollo del prototipo? ¿Cuál sería su rol? ¿Crees que sería necesario agregar nuevos integrantes después de la fase de prototipo? ¿Cuándo y por qué?
 
-* Durante la etapa de desarrollo del prototipo: Sumaría a un semi senior developer que pueda ayudar con nuevos requerimientos que escapen del scope principal del prototipo y para acelerar la etapa de "prototipado", haría uso de un Data Science / ML engineer a tiempo completo por un periodo muy corto de tiempo 3/4 días. Las "ayudas para temas puntuales" no suelen terminar de la mejor manera.
+* Durante la etapa de desarrollo del prototipo: Sumaría a un _semi senior developer_ que pueda ayudar con nuevos requerimientos que escapen del scope principal del prototipo y para acelerar la etapa de _prototyping_, haría uso de un _Data Scientist / ML engineer_ a tiempo completo por un periodo muy corto de tiempo 3/4 días. Las "ayudas para temas puntuales" no suelen terminar de la mejor manera.
 * Posterior a la fase de prototipo: Se requeriría de al menos 2 personas más con un nivel de expertise Junior para que tengan oportunidad de crecer junto con el producto.
-* Cuarto: Seleccionaríamos a un único responsable (Team leader) que se encargue de revisar y solucionar los problemas de conflictos.
 ### Pregunta 6
 
 ¿Qué otras consideraciones tendrías para hacer el proceso de desarrollo robusto y eficiente?
 
-* Básicamente lo mencionado en la pregunta 5. La ayuda de un Data Scientist y un ML Engineer ayudaría a pasar de "prototyping" a "rapid prototyping", lo cual beneficiaría muchísimo a todos los involucrados. 
+* Básicamente lo mencionado en la pregunta 5. La ayuda de un Data Scientist y un ML Engineer ayudaría a pasar de "prototyping" a "rapid prototyping", lo cual beneficiaría muchísimo a todos los involucrados tantos a los clientes internos como externos. 
 
 <!-- GETTING STARTED -->
 ## Demo
 
-Para comprobar el resultado acceder a los siguientes Links:
+Para comprobar el resultado, acceder a los siguientes Links:
 
 ### Spike Delivery App
 
-* Spike Delivery App: [LINK]
+* Spike Delivery App: [https://example.com](https://example.com)
 ### Consultas Historicas
 
-1. Ingresar al siguiente Link [https://example.com](https://example.com)
+1. Ingresar al siguiente Link: [https://example.com](https://example.com)
 2. Colocar el usuario y contraseña:
    
 _Por temas de seguridad, las credenciales serán compartidas por correo/chat_
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Recursos
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Geopy](https://pypi.org/project/geopy/)
 * [Django-with-Geolocation](https://github.com/hellopyplane/Django-with-Geolocation)
 * [Django](https://www.djangoproject.com/)
