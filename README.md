@@ -121,10 +121,10 @@ Para comprobar el resultado, acceder a los siguientes Links:
 
 ### Spike Delivery App
 
-* Spike Delivery App: [https://example.com](https://example.com)
+* Spike Delivery App: [http://hromanoc.pythonanywhere.com](http://hromanoc.pythonanywhere.com)
 ### Consultas Historicas
 
-1. Ingresar al siguiente Link: [https://example.com](https://example.com)
+1. Ingresar al siguiente Link: [http://hromanoc.pythonanywhere.com/admin/](http://hromanoc.pythonanywhere.com/admin/)
 2. Colocar el usuario y contraseña:
    
 _Por temas de seguridad, las credenciales serán compartidas por correo/chat_
