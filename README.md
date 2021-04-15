@@ -126,8 +126,16 @@ Para comprobar el resultado, acceder a los siguientes Links:
 
 1. Ingresar al siguiente Link: [http://hromanoc.pythonanywhere.com/admin/](http://hromanoc.pythonanywhere.com/admin/)
 2. Colocar el usuario y contraseña:
-   
-_Por temas de seguridad, las credenciales serán compartidas por correo/chat_
+_Por temas de seguridad, las credenciales serán compartidas por correo/chat/formulario Google_
+
+[login-screenshot]](images/login-screenshot.png)
+
+3. Seleccionar _"distances"_: 
+
+[login-screenshot]](images/distances-screenshot.png)
+
+4. Encontrarás la lista de consultas realizadas en la aplicación
+[login-screenshot]](images/historicos-screenshot.png)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Recursos
