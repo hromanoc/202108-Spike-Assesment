@@ -128,14 +128,14 @@ Para comprobar el resultado, acceder a los siguientes Links:
 2. Colocar el usuario y contraseña:
 _Por temas de seguridad, las credenciales serán compartidas por correo/chat/formulario Google_
 
-[login-screenshot]](images/login-screenshot.png)
+[![Login Screen Shot][login-screenshot]](images/login-screenshot.png)
 
 3. Seleccionar _"distances"_: 
 
-[login-screenshot]](images/distances-screenshot.png)
+[![Distances Screen Shot][distances-screenshot]](images/distances-screenshot.png)
 
 4. Encontrarás la lista de consultas realizadas en la aplicación
-[login-screenshot]](images/historicos-screenshot.png)
+[![Historicos Screen Shot][historicos-screenshot]](images/historicos-screenshot.png)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Recursos
@@ -152,3 +152,6 @@ _Por temas de seguridad, las credenciales serán compartidas por correo/chat/for
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/hernan-romano/
 [product-screenshot]: images/screenshot.png
+[login-screenshot]: images/login-screenshot.png
+[distances-screenshot]: images/distances-screenshot.png
+[historicos-screenshot]: images/historicos-screenshot.png
